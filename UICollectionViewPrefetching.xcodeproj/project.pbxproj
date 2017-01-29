@@ -14,6 +14,7 @@
 		6B1A0FB71E3DC164002F03A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A0FB51E3DC164002F03A4 /* LaunchScreen.storyboard */; };
 		6B1A0FC21E3DC164002F03A4 /* UICollectionViewPrefetchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A0FC11E3DC164002F03A4 /* UICollectionViewPrefetchingTests.swift */; };
 		6B1A0FCD1E3DC164002F03A4 /* UICollectionViewPrefetchingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A0FCC1E3DC164002F03A4 /* UICollectionViewPrefetchingUITests.swift */; };
+		6B1A0FDB1E3DC1F5002F03A4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A0FDA1E3DC1F5002F03A4 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		6B1A0FC81E3DC164002F03A4 /* UICollectionViewPrefetchingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewPrefetchingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1A0FCC1E3DC164002F03A4 /* UICollectionViewPrefetchingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewPrefetchingUITests.swift; sourceTree = "<group>"; };
 		6B1A0FCE1E3DC164002F03A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1A0FDA1E3DC1F5002F03A4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		6B1A0FDC1E3DD2F7002F03A4 /* SHPiOSLT_20170130_UICollectionViewPrefetching.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = SHPiOSLT_20170130_UICollectionViewPrefetching.key; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		6B1A0FA01E3DC163002F03A4 = {
 			isa = PBXGroup;
 			children = (
+				6B1A0FDC1E3DD2F7002F03A4 /* SHPiOSLT_20170130_UICollectionViewPrefetching.key */,
 				6B1A0FAB1E3DC164002F03A4 /* UICollectionViewPrefetching */,
 				6B1A0FC01E3DC164002F03A4 /* UICollectionViewPrefetchingTests */,
 				6B1A0FCB1E3DC164002F03A4 /* UICollectionViewPrefetchingUITests */,
@@ -103,6 +107,7 @@
 				6B1A0FB31E3DC164002F03A4 /* Assets.xcassets */,
 				6B1A0FB51E3DC164002F03A4 /* LaunchScreen.storyboard */,
 				6B1A0FB81E3DC164002F03A4 /* Info.plist */,
+				6B1A0FDA1E3DC1F5002F03A4 /* CollectionViewCell.swift */,
 			);
 			path = UICollectionViewPrefetching;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				6B1A0FAF1E3DC164002F03A4 /* ViewController.swift in Sources */,
 				6B1A0FAD1E3DC164002F03A4 /* AppDelegate.swift in Sources */,
+				6B1A0FDB1E3DC1F5002F03A4 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 29C6ELZ3SW;
 				INFOPLIST_FILE = UICollectionViewPrefetching/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.UICollectionViewPrefetching;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 29C6ELZ3SW;
 				INFOPLIST_FILE = UICollectionViewPrefetching/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.UICollectionViewPrefetching;
 				PRODUCT_NAME = "$(TARGET_NAME)";
